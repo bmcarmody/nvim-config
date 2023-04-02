@@ -5,4 +5,5 @@ return {
 
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.colorscheme.tokyonight" },
+  { import = "astrocommunity.markdown-and-latex.glow-nvim" },
 }

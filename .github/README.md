@@ -1,36 +1,30 @@
-# AstroNvim User Configuration Example
+# Nvim Config
 
-A user configuration template for [AstroNvim](https://github.com/AstroNvim/AstroNvim)
+This is my personal configuration for Neovim, customized to fit my needs and preferences. It's built on AstroNvim with a variety of added plugins, settings
+and keybindings that make my editing experience more efficient and enjoyable.
 
-## 🛠️ Installation
+## Requirements
 
-#### Make a backup of your current nvim and shared folder
+Just so I don't forget how to get this all working next time I get a new laptop
 
-```shell
-mv ~/.config/nvim ~/.config/nvim.bak
-mv ~/.local/share/nvim ~/.local/share/nvim.bak
+**Nvim** (v9.0+) - `brew install neovim`
+
+**AstroNvim** - https://github.com/AstroNvim/AstroNvim
+
+**Ripgrep** (Telescope dependency) - https://github.com/BurntSushi/ripgrep
+
+**LazyGit** - `brew install lazygit`
+
+## Usage
+
+**Clone this repository into your `~/.config/nvim/lua/user` folder**
+
+```sh
+git clone git@github.com:bmcarmody/nvim_config.git ~/.config/nvim/lua/user
 ```
 
-#### Clone AstroNvim
+**Start Neovim**
 
-```shell
-git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
-```
-
-#### Create a new user repository from this template
-
-Press the "Use this template" button above to create a new repository to store your user configuration.
-
-You can also just clone this repository directly if you do not want to track your user configuration in GitHub.
-
-#### Clone the repository
-
-```shell
-git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim/lua/user
-```
-
-#### Start Neovim
-
-```shell
+```sh
 nvim
 ```

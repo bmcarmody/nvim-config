@@ -28,6 +28,13 @@ return {
     -- ["<esc>"] = false,
   },
   i = {
-    ["<C-J>"] = { "copilot#Accept('<CR>')", desc = "Accept Copilot suggestion", expr = true },
+    ["<C-j>"] = {
+      "copilot#Accept('<CR>')",
+      desc = "Accept Copilot suggestion",
+      noremap = true,
+      expr = true,
+      silent = true,
+      replace_keycodes = false,
+    },
   },
 }

@@ -14,6 +14,7 @@ return {
   x = {
     ["J"] = { ":m '>+1<CR>gv=gv", desc = "Move line down" },
     ["K"] = { ":m '<-2<CR>gv=gv", desc = "Move line up" },
+    ["<leader>p"] = { '"_dP', desc = "Paste without overriding register" },
   },
   i = {
     ["<C-j>"] = {

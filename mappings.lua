@@ -16,6 +16,7 @@ return {
     ["J"] = { ":m '>+1<CR>gv=gv", desc = "Move line down" },
     ["K"] = { ":m '<-2<CR>gv=gv", desc = "Move line up" },
     ["<leader>p"] = { '"_dP', desc = "Paste without overriding register" },
+    ["<leader>x"] = { "<cmd>!chmod +x %<CR>", silent = true, desc = "Make current file executable" },
   },
   i = {
     ["<C-j>"] = {

@@ -19,7 +19,7 @@ return {
     ["<leader>x"] = { "<cmd>!chmod +x %<CR>", silent = true, desc = "Make current file executable" },
   },
   i = {
-    ["<C-j>"] = {
+    ["<C-h>"] = {
       "copilot#Accept('<CR>')",
       desc = "Accept Copilot suggestion",
       noremap = true,

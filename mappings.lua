@@ -10,6 +10,7 @@ return {
       desc = "Pick buffer to close",
     },
     ["<leader>b"] = { name = "Buffers" },
+    ["<leader>s"] = { ":%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Left><Left>", desc = "Search and replace on cursor" },
   },
   x = {
     ["J"] = { ":m '>+1<CR>gv=gv", desc = "Move line down" },

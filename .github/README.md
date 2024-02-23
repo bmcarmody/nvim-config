@@ -15,6 +15,8 @@ Just so I don't forget how to get this all working next time I get a new laptop
 
 **LazyGit** - `brew install lazygit`
 
+**Ollama** - https://ollama.com/
+Install `deepseek coder` model: `ollama run deepseek-coder:6.7b` - https://ollama.com/library/deepseek-coder
 ## Usage
 
 **Clone this repository into your `~/.config/nvim/lua/user` folder**

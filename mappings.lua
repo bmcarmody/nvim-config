@@ -11,6 +11,7 @@ return {
     },
     ["<leader>b"] = { name = "Buffers" },
     ["<leader>s"] = { ":%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Left><Left>", desc = "Search and replace on cursor" },
+    ["<leader>;"] = { ":Gen<CR>" },
   },
   x = {
     ["J"] = { ":m '>+1<CR>gv=gv", desc = "Move line down" },
@@ -27,5 +28,8 @@ return {
       silent = true,
       replace_keycodes = false,
     },
+  },
+  v = {
+    ["<leader>;"] = { ":Gen<CR>" },
   },
 }
